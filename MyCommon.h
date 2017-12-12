@@ -7,8 +7,7 @@
 #define USER_AES_KEY
 
 //Replace the following key by your valid key:
-#define MY_AES_KEY 0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00
-
+#define MY_AES_KEY
 
 #define MY_RADIO_NRF24
 #define MY_RF24_CHANNEL  1

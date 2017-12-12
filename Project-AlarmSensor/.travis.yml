@@ -8,5 +8,5 @@ cache:
 install:
     - pip install -U platformio
 script:
-    - platformio run --project-dir Project-AlarmSensor
-    - platformio run --project-dir Project-Security
+    - platformio run
+
