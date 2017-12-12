@@ -1,4 +1,5 @@
 # My personal sketch for MySensor
+[![Build Status](https://travis-ci.org/alheureux88/MySensors.svg?branch=travis)](https://travis-ci.org/alheureux88/MySensors)
 ## What is it?
 Personal repository of the different sensor and configuration I am currently using for my home automation. You can see how they are used in my `homeassistant` repository.
 

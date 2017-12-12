@@ -8,7 +8,7 @@ before_install:
   - sudo mv arduino-1.8.5-linux64.tar.xz /usr/local/share/arduino
   - sudo ln -s /usr/local/share/arduino/arduino /usr/local/bin/arduino
 install:
-  - ln -s $PWD/libraries/MyCommon /usr/local/share/arduino/libraries/MyCommon
+  - ln -s $PWD/libraries /usr/local/share/arduino/libraries
   - arduino --install-library "MySensors"
 script:
   - arduino --verify --board arduino:avr:uno $PWD/AlarmSystemSensor/AlarmSystemSensor.ino
