@@ -16,7 +16,7 @@
    modify it under the terms of the GNU General Public License
    version 2 as published by the Free Software Foundation.
 */
-#include <MyCommon.h>
+#include "../../MyCommon.h"
 #include <MySensors.h>
 
 #define SKETCH_NAME "Alarm System"

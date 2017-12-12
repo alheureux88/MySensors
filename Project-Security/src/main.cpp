@@ -80,7 +80,7 @@
  * Details on personalization procedure is given in @ref personalization.
  */
 
-#include <MyCommon.h>
+#include "../../MyCommon.h"
 #include "sha204_library.h"
 #include "sha204_lib_return_codes.h"
 #define MY_CORE_ONLY
@@ -212,8 +212,6 @@ const uint8_t user_soft_serial[9] = {MY_SOFT_SERIAL};
 #endif
 
 #ifdef USER_AES_KEY
-/** @brief The user-defined AES key to use for EEPROM personalization */
-#define MY_AES_KEY 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
 /** @brief The data to store as AES key in EEPROM */
 const uint8_t user_aes_key[16] = {MY_AES_KEY};
 #endif
